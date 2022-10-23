@@ -17,7 +17,7 @@ resources:
     endpoint: devopsravi9
 
 stages:
-- template: shipping.yml@templates
+- template: maven.yml@templates
 
 
 
