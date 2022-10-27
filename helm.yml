@@ -4,3 +4,9 @@ service:
   type: ClusterIP
 ingress:
   enabled: false
+configMap:
+  enabled: "true"
+  data:
+    CART_ENDPOINT: "cart:8080"
+    DB_HOST: roboshop-dev-rds.cdkob5uw5kab.us-east-1.rds.amazonaws.com
+    JVM_MEM: "3072"
